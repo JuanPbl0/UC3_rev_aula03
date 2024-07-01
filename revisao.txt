@@ -1,0 +1,54 @@
+Revisão das aulas anteriores:
+
+git clone <URL> - Clonar o repositório remoto.
+
+git init - Inicializa o controle de versão no repositório ou diretório.
+
+git remote add origin <URL> - Conecta o diretório local com o diretório remoto.
+
+git status - Mostra na tela a branch conectada e o status dos arquivos, se eles estão preparados ou não para dar commit.
+
+git add <Arquivo ou diretório> - Prepara o arquivo ou diretório para o commit.
+
+git commit -m "Descrição do commit" - Aplica o que foi preparado no comando "add". Pode ser uma exclusão, edição ou adição.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Padrões para nomear commits:
+
+-fix: Para correções de código.
+
+-feat: Para tudo que for novo no projeto.
+
+-refactor: Para refazer alguma coisa.
+
+-style: Para ajuste de design do código.
+
+
+git branch <Nome da branch> - Cria nova branch.
+
+git checkout <Nome da branch> - Para trocar a branch logada.
+
+git checkout -b <Nome da branch> - Cria a branch e troca na sequência.
+
+git branch -d <Nome da branch> - Para deletar uma branch.  Lembrando, sempre verificar se a branch que deseja apagar não é a atual.
+
+git push -u origin <URL> - Enviar os commits do repositório local para o repositório remoto.
+
+git pull - Puxar os commits do repositório remoto para o repositório local.
+
+git log - Mostra o histórico de commits do repositório.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Comandos de terminal:
+
+cd <diretório> - Vai acessar o diretório.
+
+cd .. - Volta para o diretório anterior.
+
+dir - Comando Windows para listar os diretórios.
+
+mkdir - Cria um novo diretório.
+
+cm - Apaga um diretório
