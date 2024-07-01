@@ -1,5 +1,11 @@
 Revisão das aulas anteriores:
 
+# Configurar o git pela primeira vez na máquina
+git config --global user.name "Seu nome"
+git config --global user.email "seu@email.com" 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 git clone <URL> - Clonar o repositório remoto.
 
 git init - Inicializa o controle de versão no repositório ou diretório.
@@ -33,7 +39,7 @@ git checkout -b <Nome da branch> - Cria a branch e troca na sequência.
 
 git branch -d <Nome da branch> - Para deletar uma branch.  Lembrando, sempre verificar se a branch que deseja apagar não é a atual.
 
-git push -u origin <URL> - Enviar os commits do repositório local para o repositório remoto.
+git push -u origin <Nome da branch> - Enviar os commits do repositório local para o repositório remoto.
 
 git pull - Puxar os commits do repositório remoto para o repositório local.
 
